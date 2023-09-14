@@ -1,0 +1,240 @@
+.bigsearchF {
+  color: rgba(0, 0, 0, 0.25);
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+* {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+.bf14 {
+  color: #333;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fenliuBG1 {
+  background-image: url("小幸运.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fenliuBG2 {
+  background-image: url("遇见.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    90deg,
+    #2c2c2c 0%,
+    rgba(61, 61, 61, 0.75) 31.96%,
+    rgba(114, 114, 114, 0) 65.5%
+  );
+  border-radius: 2px;
+}
+
+.container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  text-align: center;
+}
+
+.fenliuWFB {
+  color: #fff;
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.fenliuWFS {
+  color: #fff;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.parent {
+  position: relative;
+}
+
+.child1 {
+  position: absolute;
+  z-index: 1;
+}
+.titleS {
+  color: #000;
+  font-family: PingFang SC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.titleB {
+  color: #000;
+  font-family: PingFang SC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+.aie {
+  align-items: flex-end;
+}
+.jce {
+  justify-content: flex-end;
+}
+.moreF {
+  color: #606266;
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cardBG {
+  background-color: #ffffff;
+}
+.sencemodlecardTF {
+  color: #606266;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sencemodlecardSTF {
+  color: #8d8d8d;
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fdc {
+  flex-direction: column;
+}
+.fenliubasefont {
+  color: #000;
+  text-align: center;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.radius2px {
+  border-radius: 2px;
+}
+
+.zhuanjisubtitleF {
+  color: #8d8d8d;
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mxtgTF {
+  color: #303133;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mxtgSTF {
+  color: #9f9f9f;
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mxtgSTgreyF {
+  color: #9f9f9f;
+  font-family: PingFang SC;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mxtgSTgreyerF {
+  color: #bbb;
+  font-family: PingFang SC;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mxtgUNF {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cmc {
+  border-radius: 50%;
+}
+
+.footerTF {
+  color: #fff;
+  font-family: PingFang SC;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footersubTF {
+  color: #8c8c8c;
+  font-family: PingFang SC;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footerinfoF {
+  color: #606266;
+  font-family: PingFang SC;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
